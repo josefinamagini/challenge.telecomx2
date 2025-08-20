@@ -8,8 +8,8 @@ El informe completo, con visualizaciones, correlaciones y desempeño de modelos,
 ---
 
 ## 📂 Estructura del proyecto
-- `/notebooks` → Notebook principal con el análisis y modelado: **TelecomX_2.ipynb**  
-- `/data` → Dataset limpio exportado desde la Parte 1: **telecom_clean.csv**  
+- `Notebooks` → Notebook principal con el análisis y modelado: **TelecomX_2.ipynb**  
+- `Data` → Dataset limpio exportado desde la Parte 1: **telecom_clean.csv**  
 - `README.md` → Este documento.  
 
 El notebook realiza:
@@ -26,10 +26,6 @@ El notebook realiza:
 1. Abre el notebook en **Google Colab** o **Jupyter Notebook**.  
 2. Ejecuta las celdas en orden. Se cargará `telecom_clean.csv`, se aplicará el preprocesamiento (encoding, imputación, estandarización cuando necesario) y luego se entrenarán los modelos.  
 3. Revisa la sección final con métricas de desempeño y conclusiones.  
-
-**Dependencias**:  
-`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`.
-
 ---
 
 ## 📊 Resultados principales
